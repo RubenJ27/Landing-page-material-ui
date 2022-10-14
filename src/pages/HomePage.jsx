@@ -52,11 +52,7 @@ export const HomePage = () => {
           >Perfil de GitHub</Button>
         </Grid>
         <Grid sx={{ textAlign: { xs: "center", md: "right" }, marginTop: { xs: 10, md: 0 }, borderRadius: 5 }}  item xs={12} sm={6}>
-          <img src={imageLogo} xs={{
-            width: 20,
-            height: 20,
-            borderRadius: 5,
-          }} />
+          <img src={imageLogo} className="homepage" />
         </Grid>
       </Grid>
     </Container>

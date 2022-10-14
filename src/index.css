@@ -3,3 +3,12 @@
 html{
   font-family: 'Quicksand', sans-serif;
 }
+
+.homepage{
+  border-radius: 10%;
+}
+
+.portfolio{
+  width: 100%;
+  border-radius: 20px;
+}
