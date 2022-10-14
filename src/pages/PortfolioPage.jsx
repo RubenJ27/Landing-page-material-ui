@@ -4,7 +4,6 @@ import { Box, Button, Container, Grid, Paper, Stack, Typography } from "@mui/mat
 import { projects } from "../database/projects";
 
 export const PortfolioPage = () => {
-  console.log(projects);
   return (
     <Container
       sx={{
@@ -86,7 +85,10 @@ export const PortfolioPage = () => {
                   </Button>
                   <Button sx={{
                    borderRadius: 10,
-                   backgroundColor: "primary.main",
+                   backgroundColor: "primary.main","&:hover": {
+                     backgroundColor: "#093550",
+                     color: "white",
+                   },
                   }} size="large" variant="contained" startIcon={<GitHubIcon />} href={project.url_github} target="_blank">
                   GitHub
                   </Button>

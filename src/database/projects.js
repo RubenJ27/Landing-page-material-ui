@@ -30,7 +30,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "LANDING PAGE",
     description: "Aplicacion web para crear tareas pendientes",
     stack: "React - JSX - TailwindCSS - LocalStorage",
