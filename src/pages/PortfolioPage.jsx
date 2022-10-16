@@ -70,7 +70,6 @@ export const PortfolioPage = () => {
                   fontFamily: "quicksand",
                   fontSize: 18,
                   fontWeight: "bold",
-                  marginBottom: 2,
                   color: "secondary.main",
                   marginBottom: 6,
                 }}>
