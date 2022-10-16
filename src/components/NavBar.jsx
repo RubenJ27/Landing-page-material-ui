@@ -145,7 +145,7 @@ export const NavBar = () => {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            JADA
           </Typography>
           {/* desktop menu buttons */}
           <Box sx={{ cursor: "pointer", flex: 1, alignItems: "center", justifyContent: "end", display: { xs: 'none', md: 'flex' } }}>

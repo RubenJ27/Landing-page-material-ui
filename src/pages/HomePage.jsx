@@ -37,15 +37,18 @@ export const HomePage = () => {
           <Typography variant="p" sx={{
             fontFamily: "quicksand",
             fontSize: 26,
-            marginBottom: 6,
+            marginBottom: 8
           }}>
-            Soy un desarrollador web con experiencia en React JS, HTML, CSS, y mucha creatividad
+            Soy un desarrollador web con experiencia en React JS, HTML, CSS, y mucha creatividad.
           </Typography>
+          <br></br>
           <Button
             href= "htttpsdf"
-            color="secondary.main"
             target= '_blank'
-            sx={{ borderRadius: 10}}
+            sx={{ border: '1px dashed blue', color: "secondary.main", marginTop: 2, borderRadius: 10, "&:hover": {
+              backgroundColor: "secondary.main",
+              color: "white",
+            },}}
             size="large"
             variant="outline"
             startIcon={<GitHubIcon />}
